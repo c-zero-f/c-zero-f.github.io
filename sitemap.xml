@@ -1,0 +1,15 @@
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    ><url>
+            <loc>https://example.com/categories/</loc><lastmod>2025-12-29T14:17:12-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://example.com/posts/</loc><lastmod>2025-12-29T14:17:12-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://example.com/tags/</loc><lastmod>2025-12-29T14:17:12-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://example.com/</loc><lastmod>2025-12-29T14:17:12-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://example.com/docker-registry/</loc><lastmod>2025-12-29T14:17:12-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://example.com/oracle-software_installation/</loc><lastmod>2025-12-29T14:17:12-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://example.com/oracle-create_database/</loc><lastmod>2025-12-29T14:17:12-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://example.com/oracle-net_configuration_assistant/</loc><lastmod>2025-12-29T14:17:12-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://example.com/tags/docker/</loc><lastmod>2025-12-29T14:17:12-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://example.com/tags/oracle/</loc><lastmod>2025-12-29T14:17:12-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://example.com/categories/documentation/</loc><lastmod>2025-12-29T14:17:12-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url></urlset>

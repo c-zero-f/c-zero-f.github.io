@@ -1,0 +1,100 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Zachary</title>
+        <link>https://example.com/</link>
+        <description>Hugo theme - LoveIt</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 17 Mar 2019 00:00:00 &#43;0000</lastBuildDate>
+            <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>创建Docker私有库</title>
+    <link>https://example.com/docker-registry/</link>
+    <pubDate>Sun, 17 Mar 2019 00:00:00 &#43;0000</pubDate>
+    <author>zachary</author>
+    <guid>https://example.com/docker-registry/</guid>
+    <description><![CDATA[<h2 id="创建容器">创建容器</h2>
+<ol>
+<li>
+<p>拉取<code>Registry</code>私有库镜像</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt" id="hl-0-1"><a class="lnlinks" href="#hl-0-1">1</a>
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">docker pull registry
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>运行容器</p>
+<p><code>\host_mnt\f\registry</code>表示的就是<code>F:/registry</code></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt" id="hl-1-1"><a class="lnlinks" href="#hl-1-1">1</a>
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">docker run -d -p 5000:5000 -v <span class="se">\h</span>ost_mnt<span class="se">\f\r</span>egistry:/var/lib/registry --name registry1 registry
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+</ol>
+<h2 id="提交本地镜像到私有库中">提交本地镜像到私有库中</h2>
+<ul>
+<li>
+<p>先将镜像打标签,在镜像名前添加私有库的名称<code>localhost:5000</code></p>]]></description>
+</item>
+<item>
+    <title>Oracle 软件安装</title>
+    <link>https://example.com/oracle-software_installation/</link>
+    <pubDate>Sat, 04 Aug 2018 00:00:00 &#43;0000</pubDate>
+    <author>zachary</author>
+    <guid>https://example.com/oracle-software_installation/</guid>
+    <description><![CDATA[<h2 id="11g-数据库服务端软件安装">11g 数据库服务端软件安装</h2>
+<ul>
+<li>
+<p>使用到的程序包为：</p>
+<p></p>
+</li>
+<li>
+<p>安装步骤如下</p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>]]></description>
+</item>
+<item>
+    <title>创建数据库</title>
+    <link>https://example.com/oracle-create_database/</link>
+    <pubDate>Sat, 04 Aug 2018 00:00:00 &#43;0000</pubDate>
+    <author>zachary</author>
+    <guid>https://example.com/oracle-create_database/</guid>
+    <description><![CDATA[<ul>
+<li>
+<p>考虑是开发库所以不对数据库进行日志归档</p>
+</li>
+<li>
+<p>使用 &ldquo;Database Configuration Assistant&quot;这个软件来创建数据库</p>
+<p></p>
+<p></p>
+<p></p>]]></description>
+</item>
+<item>
+    <title>配置监听</title>
+    <link>https://example.com/oracle-net_configuration_assistant/</link>
+    <pubDate>Sat, 04 Aug 2018 00:00:00 &#43;0000</pubDate>
+    <author>zachary</author>
+    <guid>https://example.com/oracle-net_configuration_assistant/</guid>
+    <description><![CDATA[<ul>
+<li>
+<p>使用 &ldquo;Net Configuration Assistant&rdquo;</p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>]]></description>
+</item>
+</channel>
+</rss>
