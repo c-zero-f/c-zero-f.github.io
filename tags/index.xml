@@ -1,22 +1,22 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Tags - 标签 - Zachary</title>
-        <link>https://example.com/tags/</link>
+        <link>https://c-zero-f.github.io/tags/</link>
         <description>Tags - 标签 - Zachary</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 17 Mar 2019 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://example.com/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 17 Mar 2019 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://c-zero-f.github.io/tags/" rel="self" type="application/rss+xml" /><item>
     <title>Docker</title>
-    <link>https://example.com/tags/docker/</link>
+    <link>https://c-zero-f.github.io/tags/docker/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
     <author>zachary</author>
-    <guid>https://example.com/tags/docker/</guid>
+    <guid>https://c-zero-f.github.io/tags/docker/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>Oracle</title>
-    <link>https://example.com/tags/oracle/</link>
+    <link>https://c-zero-f.github.io/tags/oracle/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
     <author>zachary</author>
-    <guid>https://example.com/tags/oracle/</guid>
+    <guid>https://c-zero-f.github.io/tags/oracle/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

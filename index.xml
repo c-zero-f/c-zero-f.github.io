@@ -1,16 +1,16 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Zachary</title>
-        <link>https://example.com/</link>
+        <link>https://c-zero-f.github.io/</link>
         <description>Hugo theme - LoveIt</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 17 Mar 2019 00:00:00 &#43;0000</lastBuildDate>
-            <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+            <atom:link href="https://c-zero-f.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>创建Docker私有库</title>
-    <link>https://example.com/docker-registry/</link>
+    <link>https://c-zero-f.github.io/docker-registry/</link>
     <pubDate>Sun, 17 Mar 2019 00:00:00 &#43;0000</pubDate>
     <author>zachary</author>
-    <guid>https://example.com/docker-registry/</guid>
+    <guid>https://c-zero-f.github.io/docker-registry/</guid>
     <description><![CDATA[<h2 id="创建容器">创建容器</h2>
 <ol>
 <li>
@@ -44,10 +44,10 @@
 </item>
 <item>
     <title>Oracle 软件安装</title>
-    <link>https://example.com/oracle-software_installation/</link>
+    <link>https://c-zero-f.github.io/oracle-software_installation/</link>
     <pubDate>Sat, 04 Aug 2018 00:00:00 &#43;0000</pubDate>
     <author>zachary</author>
-    <guid>https://example.com/oracle-software_installation/</guid>
+    <guid>https://c-zero-f.github.io/oracle-software_installation/</guid>
     <description><![CDATA[<h2 id="11g-数据库服务端软件安装">11g 数据库服务端软件安装</h2>
 <ul>
 <li>
@@ -64,10 +64,10 @@
 </item>
 <item>
     <title>创建数据库</title>
-    <link>https://example.com/oracle-create_database/</link>
+    <link>https://c-zero-f.github.io/oracle-create_database/</link>
     <pubDate>Sat, 04 Aug 2018 00:00:00 &#43;0000</pubDate>
     <author>zachary</author>
-    <guid>https://example.com/oracle-create_database/</guid>
+    <guid>https://c-zero-f.github.io/oracle-create_database/</guid>
     <description><![CDATA[<ul>
 <li>
 <p>考虑是开发库所以不对数据库进行日志归档</p>
@@ -80,10 +80,10 @@
 </item>
 <item>
     <title>配置监听</title>
-    <link>https://example.com/oracle-net_configuration_assistant/</link>
+    <link>https://c-zero-f.github.io/oracle-net_configuration_assistant/</link>
     <pubDate>Sat, 04 Aug 2018 00:00:00 &#43;0000</pubDate>
     <author>zachary</author>
-    <guid>https://example.com/oracle-net_configuration_assistant/</guid>
+    <guid>https://c-zero-f.github.io/oracle-net_configuration_assistant/</guid>
     <description><![CDATA[<ul>
 <li>
 <p>使用 &ldquo;Net Configuration Assistant&rdquo;</p>
