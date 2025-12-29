@@ -102,6 +102,119 @@
         alt="/images/avatar.jpg"
         title="/images/avatar.jpg" /></a></div><div class="links"></div></div>
 <article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/hugo_create/">搭建Hugo网站</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>zachary</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2025-12-29">2025-12-29</time></span></div><div class="content"><h2 id="hugo-安装">hugo 安装</h2>
+<ul>
+<li>为配套使用 LoveIt 主题，需要安装 Hugo 的版本号为 0.145.0</li>
+<li>可以从github 下载 hugo_extended_withdeploy_0.145.0_windows-amd64.zip 包</li>
+<li>解压到任意目录，例如 <code>C:\hugo</code></li>
+<li>将 <code>C:\hugo</code> 添加到系统环境变量 <code>PATH</code> 中</li>
+</ul>
+<h2 id="初始化博客">初始化博客</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt" id="hl-0-1"><a class="lnlinks" href="#hl-0-1">1</a>
+</span><span class="lnt" id="hl-0-2"><a class="lnlinks" href="#hl-0-2">2</a>
+</span><span class="lnt" id="hl-0-3"><a class="lnlinks" href="#hl-0-3">3</a>
+</span><span class="lnt" id="hl-0-4"><a class="lnlinks" href="#hl-0-4">4</a>
+</span><span class="lnt" id="hl-0-5"><a class="lnlinks" href="#hl-0-5">5</a>
+</span><span class="lnt" id="hl-0-6"><a class="lnlinks" href="#hl-0-6">6</a>
+</span><span class="lnt" id="hl-0-7"><a class="lnlinks" href="#hl-0-7">7</a>
+</span><span class="lnt" id="hl-0-8"><a class="lnlinks" href="#hl-0-8">8</a>
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 初始化博客</span>
+</span></span><span class="line"><span class="cl">hugo new site my-site
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 进入 博客目录</span>
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> my-site
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 初始化 git</span>
+</span></span><span class="line"><span class="cl">git init
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="添加主题">添加主题</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt" id="hl-1-1"><a class="lnlinks" href="#hl-1-1"> 1</a>
+</span><span class="lnt" id="hl-1-2"><a class="lnlinks" href="#hl-1-2"> 2</a>
+</span><span class="lnt" id="hl-1-3"><a class="lnlinks" href="#hl-1-3"> 3</a>
+</span><span class="lnt" id="hl-1-4"><a class="lnlinks" href="#hl-1-4"> 4</a>
+</span><span class="lnt" id="hl-1-5"><a class="lnlinks" href="#hl-1-5"> 5</a>
+</span><span class="lnt" id="hl-1-6"><a class="lnlinks" href="#hl-1-6"> 6</a>
+</span><span class="lnt" id="hl-1-7"><a class="lnlinks" href="#hl-1-7"> 7</a>
+</span><span class="lnt" id="hl-1-8"><a class="lnlinks" href="#hl-1-8"> 8</a>
+</span><span class="lnt" id="hl-1-9"><a class="lnlinks" href="#hl-1-9"> 9</a>
+</span><span class="lnt" id="hl-1-10"><a class="lnlinks" href="#hl-1-10">10</a>
+</span><span class="lnt" id="hl-1-11"><a class="lnlinks" href="#hl-1-11">11</a>
+</span><span class="lnt" id="hl-1-12"><a class="lnlinks" href="#hl-1-12">12</a>
+</span><span class="lnt" id="hl-1-13"><a class="lnlinks" href="#hl-1-13">13</a>
+</span><span class="lnt" id="hl-1-14"><a class="lnlinks" href="#hl-1-14">14</a>
+</span><span class="lnt" id="hl-1-15"><a class="lnlinks" href="#hl-1-15">15</a>
+</span><span class="lnt" id="hl-1-16"><a class="lnlinks" href="#hl-1-16">16</a>
+</span><span class="lnt" id="hl-1-17"><a class="lnlinks" href="#hl-1-17">17</a>
+</span><span class="lnt" id="hl-1-18"><a class="lnlinks" href="#hl-1-18">18</a>
+</span><span class="lnt" id="hl-1-19"><a class="lnlinks" href="#hl-1-19">19</a>
+</span><span class="lnt" id="hl-1-20"><a class="lnlinks" href="#hl-1-20">20</a>
+</span><span class="lnt" id="hl-1-21"><a class="lnlinks" href="#hl-1-21">21</a>
+</span><span class="lnt" id="hl-1-22"><a class="lnlinks" href="#hl-1-22">22</a>
+</span><span class="lnt" id="hl-1-23"><a class="lnlinks" href="#hl-1-23">23</a>
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 使用 Git 子模块 功能 添加 LoveIt 主题</span>
+</span></span><span class="line"><span class="cl">git submodule add https://github.com/dillonzq/LoveIt.git themes/LoveIt
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 进入 LoveIt 主题目录</span>
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> themes/LoveIt
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 拉取所有标签</span>
+</span></span><span class="line"><span class="cl">git fetch origin --tags
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 创建一个新的分支 theme-fixed-v0.3.0 并切换到该分支</span>
+</span></span><span class="line"><span class="cl">git checkout -b theme-fixed-v0.3.0 v0.3.0
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 返回到博客根目录</span>
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> ../../
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 查看当前状态，确认是否有可添加项目</span>
+</span></span><span class="line"><span class="cl">git status
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 添加 .gitmodules 文件和 themes/LoveIt 目录到 Git 暂存区</span>
+</span></span><span class="line"><span class="cl">git add .gitmodules themes/LoveIt
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 提交更改</span>
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;安装LoveIt主题，并固化主题版本为v0.3.0&#34;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>确认主题是否已经使用了 v0.3.0 版本</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt" id="hl-2-1"><a class="lnlinks" href="#hl-2-1">1</a>
+</span><span class="lnt" id="hl-2-2"><a class="lnlinks" href="#hl-2-2">2</a>
+</span><span class="lnt" id="hl-2-3"><a class="lnlinks" href="#hl-2-3">3</a>
+</span><span class="lnt" id="hl-2-4"><a class="lnlinks" href="#hl-2-4">4</a>
+</span><span class="lnt" id="hl-2-5"><a class="lnlinks" href="#hl-2-5">5</a>
+</span><span class="lnt" id="hl-2-6"><a class="lnlinks" href="#hl-2-6">6</a>
+</span><span class="lnt" id="hl-2-7"><a class="lnlinks" href="#hl-2-7">7</a>
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 切换到主题目录</span>
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> themes/LoveIt
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 确认当前版本</span>
+</span></span><span class="line"><span class="cl">git describe --tags
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 屏幕打印出 v0.3.0 代表 LoveIt 主题已切换到 v0.3.0 版本</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="配置-hugotoml-文件">配置 hugo.toml 文件</h3>
+<ul>
+<li>可以参考 <a href="https://hugoloveit.com/zh-cn/theme-documentation-basics/#basic-configuration" target="_blank" rel="noopener noreffer ">LoveIt 主题文档</a> 进行配置, 主要查看 2.3 基础配置 章节信息。</li>
+</ul></div><div class="post-footer">
+        <a href="/hugo_create/">阅读全文</a></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
         <a href="/docker-registry/">创建Docker私有库</a>
     </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>zachary</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2019-03-17">2019-03-17</time></span>&nbsp;<span class="post-category">收录于 <a href="/categories/documentation/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>文档</a></span></div><div class="content"><h2 id="创建容器">创建容器</h2>
 <ol>
