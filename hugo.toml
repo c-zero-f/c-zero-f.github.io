@@ -1,8 +1,8 @@
-baseURL = "https://example.com"
+baseURL = "https://c-zero-f.github.io/"
 
 # theme
 # 主题
-theme = "LoveIt-0.3.0"
+theme = "LoveIt"
 # themes directory
 # 主题目录
 themesDir = "themes"
@@ -33,7 +33,7 @@ copyright = ""
 enableRobotsTXT = true
 # whether to use git commit log
 # 是否使用 git 信息
-enableGitInfo = false
+enableGitInfo = true
 # whether to use emoji code
 # 是否使用 emoji 代码
 enableEmoji = true
