@@ -5,7 +5,7 @@ date = 2025-12-30T19:56:16-04:00
 lastmod = 2025-12-30T19:56:16-04:00
 author = "zachary"
 
-draft = true
+draft = false
 tags = ["Hyper-V"]
 categories = ["documentation"]
 description = ""
