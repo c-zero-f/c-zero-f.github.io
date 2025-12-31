@@ -2,17 +2,18 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>https://c-zero-f.github.io/categories/</loc><lastmod>2025-12-30T19:56:16-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://c-zero-f.github.io/tags/hyper-v/</loc><lastmod>2025-12-30T19:56:16-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://c-zero-f.github.io/hyper-v-virtual_switch/</loc><lastmod>2025-12-30T19:56:16-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://c-zero-f.github.io/posts/</loc><lastmod>2025-12-30T19:56:16-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://c-zero-f.github.io/tags/</loc><lastmod>2025-12-30T19:56:16-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://c-zero-f.github.io/</loc><lastmod>2025-12-30T19:56:16-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://c-zero-f.github.io/categories/</loc><lastmod>2025-12-29T16:02:45-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://c-zero-f.github.io/categories/documentation/</loc><lastmod>2025-12-30T19:56:16-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://c-zero-f.github.io/tags/hugo/</loc><lastmod>2025-12-29T16:02:45-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://c-zero-f.github.io/tags/</loc><lastmod>2025-12-29T16:02:45-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://c-zero-f.github.io/hugo_create/</loc><lastmod>2025-12-29T16:02:45-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://c-zero-f.github.io/categories/documentation/</loc><lastmod>2025-12-29T16:02:45-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://c-zero-f.github.io/tags/docker/</loc><lastmod>2025-12-28T22:35:26-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://c-zero-f.github.io/docker-registry/</loc><lastmod>2025-12-28T22:35:26-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://c-zero-f.github.io/tags/oracle/</loc><lastmod>2025-12-28T21:41:14-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://c-zero-f.github.io/oracle-software_installation/</loc><lastmod>2025-12-28T21:41:14-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://c-zero-f.github.io/oracle-create_database/</loc><lastmod>2025-12-28T21:35:49-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://c-zero-f.github.io/oracle-net_configuration_assistant/</loc><lastmod>2025-12-28T21:39:38-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://c-zero-f.github.io/tags/hyper-v/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
+            <loc>https://c-zero-f.github.io/oracle-net_configuration_assistant/</loc><lastmod>2025-12-28T21:39:38-04:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url></urlset>

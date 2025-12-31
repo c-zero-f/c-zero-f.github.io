@@ -4,6 +4,23 @@
         <link>https://c-zero-f.github.io/posts/</link>
         <description>所有文章 | Zachary</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 30 Dec 2025 19:56:16 -0400</lastBuildDate><atom:link href="https://c-zero-f.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Hyper-V 配置虚拟交换机</title>
+    <link>https://c-zero-f.github.io/hyper-v-virtual_switch/</link>
+    <pubDate>Tue, 30 Dec 2025 19:56:16 -0400</pubDate>
+    <author>zachary</author>
+    <guid>https://c-zero-f.github.io/hyper-v-virtual_switch/</guid>
+    <description><![CDATA[<h2 id="注意事项">注意事项</h2>
+<ul>
+<li><strong>手动创建的</strong> <strong>​<code>10.10-NAT-Switch</code>​</strong>​ <strong>（Hyper-V 内部 / 专用类型交换机）本身不包含 DHCP 功能</strong>，因此连接到该交换机的虚拟机或 Windows 系统都无法自动获取 IP，必须手动配置。</li>
+</ul>
+<h2 id="创建路由">创建路由</h2>
+<ul>
+<li>创建 <code>10.10-NAT-Switch</code>​ 及绑定 NAT 规则的完整教程</li>
+</ul>
+<h3 id="步骤-1创建内部类型的虚拟交换机-1010-nat-switch">步骤 1：创建内部类型的虚拟交换机 <code>10.10-NAT-Switch</code>​</h3>
+<p>内部类型的交换机是实现 NAT 功能的前提（仅虚拟机与宿主机互通，需绑定 NAT 规则才能上外网）。</p>]]></description>
+</item>
+<item>
     <title>搭建Hugo网站</title>
     <link>https://c-zero-f.github.io/hugo_create/</link>
     <pubDate>Mon, 29 Dec 2025 16:02:45 -0400</pubDate>
