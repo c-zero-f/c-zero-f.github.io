@@ -6,8 +6,8 @@ lastmod = 2025-12-29T16:02:45-04:00
 author = "zachary"
 
 draft = false
-tags = []
-categories = []
+tags = ["Hugo"]
+categories = ["documentation"]
 description = ""
 +++
 

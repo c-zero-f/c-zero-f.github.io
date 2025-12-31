@@ -1,0 +1,8 @@
+{
+    "markdown.copyFiles.destination": {
+        "**/*.md": "/images/${documentBaseName}/${documentBaseName}-${fileName}"
+    },
+    "markdown.extension.print.imgToBase64": true
+}
+
+

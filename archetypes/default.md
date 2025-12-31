@@ -7,6 +7,6 @@ author = "zachary"
 
 draft = true
 tags = []
-categories = []
+categories = ["documentation"]
 description = ""
 +++
