@@ -3,10 +3,18 @@
         <title>Tags - 标签 - Zachary</title>
         <link>https://c-zero-f.github.io/tags/</link>
         <description>Tags - 标签 - Zachary</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 17 Mar 2019 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://c-zero-f.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 29 Dec 2025 16:02:45 -0400</lastBuildDate><atom:link href="https://c-zero-f.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Hugo</title>
+    <link>https://c-zero-f.github.io/tags/hugo/</link>
+    <pubDate>Mon, 29 Dec 2025 16:02:45 -0400</pubDate>
+    <author>zachary</author>
+    <guid>https://c-zero-f.github.io/tags/hugo/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>Docker</title>
     <link>https://c-zero-f.github.io/tags/docker/</link>
-    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <pubDate>Sun, 17 Mar 2019 00:00:00 &#43;0000</pubDate>
     <author>zachary</author>
     <guid>https://c-zero-f.github.io/tags/docker/</guid>
     <description><![CDATA[]]></description>
@@ -14,9 +22,17 @@
 <item>
     <title>Oracle</title>
     <link>https://c-zero-f.github.io/tags/oracle/</link>
-    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <pubDate>Sat, 04 Aug 2018 00:00:00 &#43;0000</pubDate>
     <author>zachary</author>
     <guid>https://c-zero-f.github.io/tags/oracle/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Hyper-V</title>
+    <link>https://c-zero-f.github.io/tags/hyper-v/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>zachary</author>
+    <guid>https://c-zero-f.github.io/tags/hyper-v/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>
